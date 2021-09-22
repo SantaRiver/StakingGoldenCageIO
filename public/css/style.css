@@ -1,0 +1,50 @@
+:root {
+    --gc-blue: #455070;
+    --gc-light-blue: #71a3ff;
+    --gc-wax-orange: #FF774AFF;
+    --gc-anchor-blue: #3650A2FF;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.gc-header {
+    background: var(--gc-blue);
+}
+
+.gc-logo {
+    max-height: 50px;
+}
+
+.gc-bg {
+    background-color: #353D56FF;
+}
+
+.fixSaveBtn {
+    position: fixed;
+    right: 6vw;
+    top: 50vh;
+}
+
+.gc-main-bg {
+    background-image:  url(/public/img/line.png), url(/public/img/left_fighter.png), url(/public/img/right_fighter.png), url(/public/img/bg.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position-y: 620px, 100px, 100px, -100px;
+    background-position-x: -200px, 0px, 1310px, 0px;
+    background-size: 2460px, 500px, 600px, 1920px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.btn-wax {
+    background-color: var(--gc-wax-orange);
+    color: white;
+}
+
+.btn-anchor {
+    background-color: var(--gc-anchor-blue);
+    color: white;
+}
